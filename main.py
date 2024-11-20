@@ -6,7 +6,6 @@ def load_data(file_path):
     """
     Load the .mat file and return the structured data.
     """
-    data = scipy.io.loadmat(file_path)
     return data
 
 # Question 1: Remove the outlier and provide its serial number
